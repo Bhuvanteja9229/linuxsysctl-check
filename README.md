@@ -32,3 +32,4 @@ systemctl disable chronyd         --> It disables the service
 once you disable we shall reenable the services
 
 systemctl reenable chronyd        --> It will re-enable the service
+
