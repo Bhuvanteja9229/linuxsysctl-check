@@ -12,7 +12,7 @@ Alternate step:
 (These are the alternative steps to check whether the service is enable or not)
 
 systemctl is-active chronyd
-          or
+
 systemctl is-enable chronyd
 
 Step 2:
@@ -27,8 +27,11 @@ Step 3:
 (To Eabling and Disabling the systemctl services)
 
 systemctl is-enabled chronyd      --> It tells that the service is enable or not
+
 systemctl disable chronyd         --> It disables the service
 
 once you disable we shall reenable the services
+
+
 
 systemctl reenable chronyd        --> It will re-enable the service
